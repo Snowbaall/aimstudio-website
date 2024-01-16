@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!---- for responsive website ---->
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>COMPANY ABOUT</title>
+        <!---- relationship for html to css ---->
+        <link rel="stylesheet" href="style.css">
+        <!---- relationship for icon to browser tab ---->
+        <link rel="shortcut icon" type="x-icon" href="LOGO/angasaim.png">
+        <!---- relationship for google fonts ---->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!---- link for fontawesome  ---->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!---- font awesome relationship for icons ---->
+        <script src="https://kit.fontawesome.com/3419910c5c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="LOGO/itonatalagarealtol.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="structure.html">STRUCTURE</a></li>
+                        <li><a href="company values.html">COMPANY VALUES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+</section>
+
+<!---------about us content -------->
+
+<section class="about-us">
+    
+    <div class="row">
+        <div class="about-col">
+            <h1> Our Mission</h1>
+            <p>With the love for the limitless potential of technology and imagination, Aim Studios envisions to become the ultimate gaming destination, creating thrilling experiences that provide happiness. Furthermore, Aim Studios aim to create a thriving community where creativity is encouraged and a safe place for aspiring game developers.</p>
+        </div>
+        <div class="about-col">
+            <img src="bg/fps.jpg">
+        </div>
+    </div>
+    <div class="row">
+        <div class="about-col">
+            <h1>Vision</h1>
+            <p>With the love for the limitless potential of technology and imagination, Aim Studios envisions to become the ultimate gaming destination, creating thrilling experiences that provide happiness. Furthermore, Aim Studios aim to create a thriving community where creativity is encouraged and a safe place for aspiring game developers.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="bg/fpsres.jpg">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!----- Footer ----->
+
+<section class = "footer">
+    <h4>About Us</h4>
+    <p>Never forget humility. It is relevant to keep in mind to It encompasses appreciating and acknowledging accomplishments while<br>keeping a practical outlook, being receptive to new ideas, and treating others with respect.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i> by Josaiah Mendoza</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------JavaScript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

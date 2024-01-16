@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!---- for responsive website ---->
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>COMPANY DESCRIPTION</title>
+        <!---- relationship for html to css ---->
+        <link rel="stylesheet" href="style.css">
+        <!---- relationship for icon to browser tab ---->
+        <link rel="shortcut icon" type="x-icon" href="LOGO/angasaim.png">
+        <!---- relationship for google fonts ---->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!---- link for fontawesome  ---->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!---- font awesome relationship for icons ---->
+        <script src="https://kit.fontawesome.com/3419910c5c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="subs-head">
+            <nav>
+                <a href="index.html"><img src="LOGO/itonatalagarealtol.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="structure.html">STRUCTURE</a></li>
+                        <li><a href="company values.html">COMPANY VALUES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Company Values</h1>   
+</section>
+<!----- Company Values ------>
+
+<section class="structure">
+    <h1>Company Description</h1>
+    <p>Aim Studios is a game development company that specializes in creating high quality and entertaining video games using high quality facilities including an animation and a music studio. Alongside the creation process of games, Aim Studios provide opportunities to new and upcoming developers by providing internships and online workshops to those who are interested. With that in mind, Aim Studios consists mainly of developers, digital artists and music artists and 2 teams handling each of the two triple A games that fund the company. </p>
+
+
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="LOGO/Aim.png">
+                <h2>Logo Description</h2>
+                <p>Aim Studios’ logo consists of 2 general ideas. A.I.M with the letter “I” designed as a crosshair with the purpose of providing a “goal” and a flying bullet, with “Studios” in the middle, below it, in which case the company interprets it as “A bullet will only stop when it hits its target or if it fails”. In the circumstance that the bullet fails to hit its target, “Shoot another bullet until you no longer can”. Aim Studios believes in a “never give up” Ideology providing others an opportunity while still aiming and developing for the future.</p>
+            </div>
+            <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Game Development Team 1</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Game Development Team 2</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Digital Artist</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Game Designers</span>
+                <span>24</span>
+            </div>
+            <div>
+                <span>Sound Designer</span>
+                <span>10</span>
+            </div>
+         </div>
+         </div>
+    </section>
+
+<section class="values">
+    <div class="row">
+        <div class="values-col">
+            <img src="designs/lazy.jpg">
+            <h3>Be Lazy but Efficient</h3>
+            <p>In Aim Studios, employees are encouraged to work smarter than harder. Employees identify the most efficient, time-saving approach to complete tasks without increasing more work or difficulty</p>
+        </div>
+        <div class="values-col">
+            <img src="designs/oppor.jpg">
+            <h3>Be an Opportunist</h3>
+            <p>Aim Studios employees are born strategists. In Aim Studios, employees are quick to spot and seize favorable circumstances quickly.</p>
+        </div>
+        <div class="values-col">
+            <img src="designs/programming-skills.png">
+            <h3>Let your skills talk</h3>
+            <p>Creating a harmonious balance between consistency and proficiency, we encourage our employees to continuously develop and showcase their skills, creating a culture of growth and the production of high-quality games.</p>
+        </div>
+    </div>
+</section>
+<div class="comment-box">
+    <h3>Leave a comment</h3>
+
+    <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+        <textarea rows="5" placeholder="Your Comment"></textarea>
+        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+    </form>
+</div>
+
+<!----- Footer ----->
+
+<section class = "footer">
+    <h4>About Us</h4>
+    <p>Never forget humility. It is relevant to keep in mind to It encompasses appreciating and acknowledging accomplishments while<br>keeping a practical outlook, being receptive to new ideas, and treating others with respect.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i> by Josaiah Mendoza</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------JavaScript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
